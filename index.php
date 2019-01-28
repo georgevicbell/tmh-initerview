@@ -12,8 +12,10 @@ $arRes = json_decode($res, true);
 <script type="text/javascript" src="//api.bitrix24.com/api/v1/"></script>
 </head>
 <body>
-Welcome <?=htmlspecialchars($arRes['result']['NAME'])?>. 
 <div id="Departments">Loading Department List...</div>
+<p></p>
+<p></p>
+<p><a href="index2.php">Org chart</a></p>
 </body>
 </html>
 <script>
